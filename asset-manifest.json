@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/attendance-react-project/static/css/main.12dd2d75.css",
+    "main.js": "/attendance-react-project/static/js/main.9e194994.js",
+    "static/js/453.421f9337.chunk.js": "/attendance-react-project/static/js/453.421f9337.chunk.js",
+    "index.html": "/attendance-react-project/index.html",
+    "main.12dd2d75.css.map": "/attendance-react-project/static/css/main.12dd2d75.css.map",
+    "main.9e194994.js.map": "/attendance-react-project/static/js/main.9e194994.js.map",
+    "453.421f9337.chunk.js.map": "/attendance-react-project/static/js/453.421f9337.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12dd2d75.css",
+    "static/js/main.9e194994.js"
+  ]
+}
