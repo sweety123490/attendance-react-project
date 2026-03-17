@@ -8,12 +8,10 @@ function App() {
   const [showLowAttendance, setShowLowAttendance] = useState(false);
   const [sortOrder, setSortOrder] = useState("NONE");
 
-  // Fetch data
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((res) => res.json())
       .then((data) => {
-        // Add random attendance %
         const updated = data.map((student) => ({
           ...student,
           attendance: Math.floor(Math.random() * 101),
@@ -22,7 +20,6 @@ function App() {
       });
   }, []);
 
-  // Filtering logic
   const filteredStudents = students
     .filter((student) => {
       if (filter === "PRESENT") return student.attendance >= 75;
@@ -62,7 +59,7 @@ function App() {
         </label>
       </div>
 
-      {/* Table */}
+
       <table>
         <thead>
           <tr>
